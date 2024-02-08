@@ -1,0 +1,109 @@
+body {
+    background-image: url("/pics/newback.png");
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+    max-width: 90%;
+    max-height: 10%;
+    min-width: 30%;
+    font-family: 'Dancing Script';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script';
+    border-width: 22px;
+    border-radius: 22px;
+    text-decoration: italic, bold;
+    opacity: 90%;
+    margin-top:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    display: inline;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 12px;
+    row-gap: 12px;
+}
+
+li {
+    background-image: url("pics/tools\ in\ the\ kitchen\ \(black\).jpg");
+    font-family: 'Dancing Script';
+    width: 100%;
+    border-radius: 23px;
+    font-size: 22px;
+}
+
+#myUL li a {
+    border: 1px solid #e5dddd; 
+    margin-top: -1px; 
+    background-image: linear-gradient(90deg, rgb(59, 58, 58) 0%, rgb(49, 50, 48) 100%);
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 19px;
+    color: black; 
+    display: block; 
+    border-radius: 29px;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    background-color: rgb(242, 238, 231);
+    border-radius: 22px;
+    text-align: center;
+}
+
+#show {
+    position: sticky;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #4d4a4a; /* Add a hover effect to all links, except for headers */
+}
+
+img {
+    border: 1px solid #0f0101; 
+    border-radius: 29px;
+    width: 100%;
+}
+
+p {
+    text-align: center; 
+}
+
+.title{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -2px;
+    color:  rgb(237, 228, 228);
+    background-image: linear-gradient(90deg, rgb(59, 58, 58) 0%, rgb(49, 50, 48) 100%);
+}
+
+.link{
+  opacity: 92%;
+  align-items: center;
+  height: 22px;
+}
+
